@@ -1,16 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
 html {
     background-color: #1C2C58;
 }
 
-h1 {
-    color: white;
-}
 .main-content {
     display: flex;
+    flex-direction: row ;
 }
 
 .nav-bar {
+    
+    padding-top: 0;
     width: 20%;
     height: 100%;
     background-color: #A49159;
+}
+
+.icon-grouping {
+    bottom: 5;
+}
+
+.main-name {
+    color: white;
 }
